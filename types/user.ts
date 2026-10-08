@@ -10,3 +10,7 @@ export type MeResult = {
     error? : string
 }
 
+export type LoginResponse = {
+    accessToken: string
+    expiresIn: number
+}
